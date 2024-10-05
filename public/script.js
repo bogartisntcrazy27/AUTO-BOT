@@ -1,5 +1,3 @@
-eto naman sa script.js
-
 document.getElementById('agreeCheckbox').addEventListener('change', function() {
 	document.getElementById('submitButton').disabled = !this.checked;
 });
